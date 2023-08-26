@@ -15,6 +15,10 @@ function component() {
     const element = document.createElement('div)');
 
     //Lodash, currently included via a script, is required for this line to work:
+    //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+    //^That's their code and comment, I'm not sure if lodash is somehow needed to concact the strings but I'm using the simplified code below
+    
     element.innerHTML = `If all has gone well you're reading this on the screen. `;
 
     return element;
