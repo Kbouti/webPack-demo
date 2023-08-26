@@ -7,6 +7,8 @@
 //6. make src folder, and append child index.js, index.html
 //7. boiler plate index and test js command
 //8. in package.json file: remove main: index.js, replace with:     "private": true,
+//9. create dist folder, put index inside it (could have done it this way from the start?)
+
 
 
 console.log(`I am here in the console`);
@@ -15,13 +17,14 @@ function component() {
     const element = document.createElement('div)');
 
     //Lodash, currently included via a script, is required for this line to work:
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
     //^That's their code and comment, I'm not sure if lodash is somehow needed to concact the strings but I'm using the simplified code below
     
-    // element.innerHTML = `If all has gone well you're reading this on the screen. `;
+    element.innerText = `If all has gone well you're reading this on the screen. `;
 
     return element;
 }
 
 document.body.appendChild(component());
+
