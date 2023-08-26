@@ -8,7 +8,7 @@
 //7. boiler plate index and test js command
 //8. in package.json file: remove main: index.js, replace with:     "private": true,
 //9. create dist folder, put index inside it (could have done it this way from the start?)
-
+//10. npm install --save lodash
 
 
 console.log(`I am here in the console`);
