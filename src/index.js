@@ -21,16 +21,16 @@ import _ from 'lodash';
 console.log(`I am here in the console`);
 
 function component() {
-    const element = document.createElement('div)');
+    const element = document.createElement('div');
 
     //Lodash, currently included via a script, is required for this line to work:
     //now lodash is imported by this script
     
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
     //^That's their code and comment, I'm not sure if lodash is somehow needed to concact the strings but I'm using the simplified code below
     
-    // element.innerText = `If all has gone well you're reading this on the screen. `;
+    element.innerHTML = `If all has gone well you're reading this on the screen. `;
 
     return element;
 }
