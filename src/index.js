@@ -10,6 +10,8 @@
 //9. create dist folder, put index inside it (could have done it this way from the start?)
 //10. npm install --save lodash
 //11. add import _ from 'lodash' to src/index.js
+//12. adjust script tag in html and run "npx webpack"
+
 
 
 
