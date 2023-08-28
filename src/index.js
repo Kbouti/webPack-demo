@@ -12,6 +12,7 @@
 //11. Add import _ from 'lodash' to src/index.js
 //12. Adjust script tag in html and run "npx webpack" in terminal. At this point you need to run npx webpack to make any changes active on screen. 
 //13. create a configuration file titled "webpack.config.js" and copy text.
+//14. npx webpack --config webpack.config.js
 
 
 
