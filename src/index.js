@@ -19,8 +19,13 @@
 //17. npm install --save-dev style-loader css-loader
 //18. Add module to webpack.config.js
 //19. make css file in src folder, add basic styling
+//20. import style.css and add class to element
+
+
+
 
 import _ from 'lodash';
+import 'style.css';
 
 
 console.log(`I am here in the console`);
@@ -36,6 +41,7 @@ function component() {
     //^That's their code and comment, I'm not sure if lodash is somehow needed to concact the strings but I'm using the simplified code below
     
     element.innerHTML = `If all has gone well you're reading this on the screen. `;
+    element.classList.add(`hello`);
 
     return element;
 }
