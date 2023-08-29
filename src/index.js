@@ -15,6 +15,9 @@
 //14. npx webpack --config webpack.config.js
 //15. add "build": "webpack" to package.json, now use "npm run build" instead of npx webpack
 
+//16. Change js file from main to bundle
+//17. npm install --save-dev style-loader css-loader
+
 
 import _ from 'lodash';
 
