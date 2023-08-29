@@ -20,12 +20,13 @@
 //18. Add module to webpack.config.js
 //19. make css file in src folder, add basic styling
 //20. import style.css and add class to element
+//21. npm run build     (and fix import css statement)
 
 
 
 
 import _ from 'lodash';
-import 'style.css';
+import './style.css';
 
 
 console.log(`I am here in the console`);
