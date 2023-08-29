@@ -17,7 +17,8 @@
 
 //16. Change js file from main to bundle
 //17. npm install --save-dev style-loader css-loader
-
+//18. Add module to webpack.config.js
+//19. make css file in src folder, add basic styling
 
 import _ from 'lodash';
 
