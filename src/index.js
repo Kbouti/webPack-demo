@@ -22,6 +22,8 @@
 //20. import style.css and add class to element
 //21. npm run build     (and fix import css statement)
 
+//22. After publishing to github pages, run:       git subtree push --prefix dist origin gh-pages
+
 
 
 
