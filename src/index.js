@@ -25,6 +25,8 @@
 
 //23. Setting up Babel, run: npm install -D babel-loader @babel/core @babel/preset-env webpack
 //24. Add babel rules to webpack.config file
+// first babel tutorial: https://github.com/babel/babel-loader
+// even better babel tutorial: https://blog.jakoblind.no/babel-preset-env/
 
 import _ from 'lodash';
 import './style.css';
