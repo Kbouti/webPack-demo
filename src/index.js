@@ -21,6 +21,10 @@
 //19. make css file in src folder, add basic styling
 //20. import style.css and add class to element
 //21. npm run build     (and fix import css statement)
+
+// NPM Watch: 
+// Add watch declaration to package.json, then run "npm run watch" in console. control+c to stop watching
+
 //22. After publishing to github pages, run:       git subtree push --prefix dist origin gh-pages
 
 //23. Setting up Babel, run: npm install -D babel-loader @babel/core @babel/preset-env webpack
